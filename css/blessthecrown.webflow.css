@@ -195,10 +195,21 @@
 }
 
 .right {
-  justify-content: center;
-  align-items: flex-end;
-  padding-top: 68px;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 26px;
   display: flex;
+}
+
+.nlogo {
+  background-image: url('../images/nentretainment.png');
+  background-position: 0 0;
+  background-size: cover;
+  width: 90px;
+  max-width: 90px;
+  height: 90px;
+  max-height: 90px;
 }
 
 @media screen and (max-width: 991px) {
